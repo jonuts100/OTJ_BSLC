@@ -34,11 +34,11 @@ body {
     font-size: 32px;
     padding: 5px 10px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar .links ul li a:hover {
-    background-color: #555;
+    color: #19A89D;
 }
 
 section {
@@ -130,10 +130,17 @@ section {
     border: none;
     background-color: #19A89D;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .mentee-button, .mentor-button{
     margin-bottom: 50px;
+}
+
+.nindya-button:hover, .mentee-button:hover, .mentor-button:hover{
+    border-radius: 12px;
+    background-color: #D7E026
 }
 
 .roles{
